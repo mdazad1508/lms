@@ -1,11 +1,15 @@
 body{
     margin:0px;
+    background-image:url(http://www.transparenttextures.com/patterns/grid-me.png);
+    background-color: #fff;
     
 }
 .header{
     display:flex;
     justify-content: space-between;
-    background-color: rgb(199, 193, 193);
+    background-color:rgba(70, 140, 220, 0.059);
+    border-bottom: 3px solid #5d528f;
+    
     
     
 }
@@ -118,8 +122,9 @@ body{
     margin-left: 10%;
     border-radius: 1%;
     margin-top: -5%;
-    background-color:rgb(179, 176, 176);
     box-shadow: 0px 0px 5px 2.5px rgb(96, 90, 100);
+    background:url("https://www.transparenttextures.com/patterns/diagmonds.png");
+    background-color: rgb(25, 103, 210);
     
 }
 
@@ -205,4 +210,28 @@ body{
     font-size: 1rem;
 
 
+}
+
+.newAsg{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    margin-left:200px;
+    margin-right: 200px;
+    box-shadow: 0px 0px 5px 2.5px rgb(96, 90, 100);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 3px;
+
+}
+
+.newAsg b{
+    color: rgb(0, 53, 160);
+}
+
+.lists{
+    margin-left: 10%;
+    font-size: larger;
+    font-family: poppins;
+    border:1px solid black;
+    margin-right: 10%;
 }
